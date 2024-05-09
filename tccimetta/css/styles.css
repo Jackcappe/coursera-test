@@ -4,14 +4,28 @@ body{
 	background-color: #086735 ;
 	font-family: "Oxygen", sans-serif;
 }
-#header-nav{
-	background-color: #f6b319;
-	border-radius: 0;
-	border:0;
+a{
+	text-decoration: none;
 }
-#logo-img{
-	background: url('../tccimetta/images/tccimetta-logo_large.png') no-repeat;
-	width: 250px;
-	height: 250px;
-	margin: 10px 15px 10px 0;
+#header-nav{
+	background-color: #B25D3A;
+	border-radius: 0;
+	border:2px solid black;
+}
+.navbar-brand{
+	border: 2px solid black;;
+}
+.navbar-brand h1{
+	font-family: "Lora", serif;
+	color: #fff;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
 }
