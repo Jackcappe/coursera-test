@@ -19,7 +19,7 @@ a{
 .navbar-brand h1{
 	font-family: "Lora", serif;
 	color: #fff;
-	font-size: 1.6em;
+	font-size: 2em;
 	text-transform: uppercase;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #222;
@@ -33,20 +33,95 @@ a{
 .nav-link{
 	font-family: "Lora", serif;
 	color: #fff;
-	font-size: 1.2em;
+	font-size: 1.3em;
 	text-shadow: 1px 1px 1px #222;
 	margin-top:10px;
-	padding-top: 50px;
+	padding-top: 70px;
 }
 .navbar-toggler, .custom-toggler{
 	border: 1px solid #fff;
 	background-color: #086735;
 	margin-right: 10px;
 }
-
+.navbar-toggler:focus{
+ 	box-shadow: none;
+}
 .navbar-toggler:hover{
 		box-shadow:0 0 10px #086735
 }
-.navbar-toggler:focus{
- 	box-shadow:0 0 10px #086735;
+#main-content{
+
 }
+#rete-img{
+	margin-top: 10px;
+	width:100%;
+	box-shadow: 0 0 50px black;
+	border:2px solid black;
+}
+#page-title{
+	padding-left: 10px;
+}
+#circolo-description{
+	border:1px solid black;
+	width: 100%;
+	margin-top: 5px;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: justify;
+	text-shadow: 1px 1px 1px #222;
+}
+/**************** Large devices only ***********/
+@media (min-width: 922px ) {
+	#rete-img{
+		height: 400px;
+	}
+}
+/**************** Medium devices only ***********/
+@media (min-width: 768px) and (max-width: 991px){
+	#logo-img{
+		width: 90px;
+		height: 90px;
+	}
+	.navbar-brand h1{
+		font-size: 1.8em;
+	}
+	.nav-link{
+		font-size: 1.2em;
+		padding-top: 30px;
+	}
+	#circolo-description h2{
+		font-size: 1.2em;
+
+	}
+}
+
+/**************** Small devices only ***********/
+@media (min-width:576px) and (max-width: 767px){
+	#logo-img{
+		width: 75px;
+		height: 75px;
+	}
+	.navbar-brand h1{
+		font-size: 1.4em;
+	}
+	.nav-link{
+		font-size: 1.1em;
+		padding-top: 25px;
+	}
+}
+/**************** X-Small devices only ***********/
+@media (max-width:575px){
+	#logo-img{
+		width: 60px;
+		height: 60px;
+	}
+	.navbar-brand h1{
+		font-size: 1.1em;
+	}
+	.nav-link{
+		font-size: 0.95em;
+		padding-top: 20px;
+	}
+}
+
