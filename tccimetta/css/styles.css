@@ -7,26 +7,46 @@ body{
 a{
 	text-decoration: none;
 }
-
+#logo-img{
+	box-shadow:  0 0 10px #086735;
+}
 #header-nav{
 	background-color: #B25D3A;
 	border-radius: 0;
-	border:2px solid black;
+	border: 0;
 }
-.navbar-brand{
-	border: 2px solid black;;
-}
+
 .navbar-brand h1{
 	font-family: "Lora", serif;
 	color: #fff;
-	font-size: 1.5em;
+	font-size: 1.6em;
 	text-transform: uppercase;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #222;
-	margin-top: 0;
-	margin-bottom: 0;
 	line-height: .75;
+	padding-top: 10px;
+	padding-left: 10px;
 }
 .navbar-brand a:hover, .navbar-brand a:focus{
 	text-decoration: none;
+}
+.nav-link{
+	font-family: "Lora", serif;
+	color: #fff;
+	font-size: 1.2em;
+	text-shadow: 1px 1px 1px #222;
+	margin-top:10px;
+	padding-top: 50px;
+}
+.navbar-toggler, .custom-toggler{
+	border: 1px solid #fff;
+	background-color: #086735;
+	margin-right: 10px;
+}
+
+.navbar-toggler:hover{
+		box-shadow:0 0 10px #086735
+}
+.navbar-toggler:focus{
+ 	box-shadow:0 0 10px #086735;
 }
