@@ -6,14 +6,16 @@
 	<title>Tennis Club Cimetta</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
 	<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
 </head>
 <body>
 	<header>
 		<nav id="header-nav" class="navbar navbar-expand-lg">
 			<div class="container-fluid">
-					<div class="navbar-brand ">
+					<div class="navbar-brand" >
 						<a href="index.html">
 						<img src="images/tccimetta-logo_large.png" alt="Logo image" id="logo-img"width="120px" height="120px" />
 						</a>
@@ -40,27 +42,56 @@
 								<a class="nav-link" href="https://jackcappe.github.io/coursera-test/mod2_solution/">Prenota</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="https://jackcappe.github.io/coursera-test/mod2_solution/">Contatti</a>
+								<a class="nav-link" href="#footer-panel">Contatti</a>
 							</li>
 						</ul>
-					</div>
-			</div>
+					</div><!--*end of collapsable navbar -->
+			</div><!--*end of container-fluid -->
 		</nav>
 	</header>
 
-	<div id="page-title" class="container-fluid">
-	<h2 > IL CIRCOLO</h2>
+	<div class="container-fluid">
+		<h2 id="page-title"> IL CIRCOLO</h2>
     </div>
 
 
-	<div id="main-content" class="container-fluid" >
-		<img src="images/rete-img_large.png" class="img-fluid" id="rete-img" alt="Rete image"  >
+	<div class="container-fluid" >
+		<img src="images/circolo-img_large.png" class="img-fluid" id="main-content-img" alt="Circolo image" >
 	</div>
 
-	<div id="circolo-description" >
-		
-		<p> Nato nel 1972, per volontà di Don Domenico Polese e di uno sparuto ma tenace gruppo di giovani parrocchiani, il TC Cimetta ha una lunga storia vissuta all’insegna dei più alti valori dello sport e si fregia di aver visto nascere sui suoi campi un campione: Renzo Furlan, top-twenty negli anni &apos;90. Ora, completamente rinnovato, il TC Cimetta continua la sua attività. Quel gruppo di giovani pionieri c’è ancora e continua nel suo impegno ma &quot;lascia il servizio&quot; al &quot;doppio&quot; formato da Massimo e Giacomo. L&apos;obiettivo rimane lo stesso: promuovere il tennis e i suoi valori!</p>
-	</div>
+	<div class="container-fluid" >	
+		<p id="main-content-text"> Nato nel 1972, per volontà di Don Domenico Polese e di uno sparuto ma tenace gruppo di giovani parrocchiani, il TC Cimetta ha una lunga storia vissuta all’insegna dei più alti valori dello sport e si fregia di aver visto nascere sui suoi campi un campione: Renzo Furlan, top-twenty negli anni &apos;90. Ora, completamente rinnovato, il TC Cimetta continua la sua attività. Quel gruppo di giovani pionieri c’è ancora e continua nel suo impegno ma &quot;lascia il servizio&quot; al &quot;doppio&quot; formato da Massimo e Giacomo. L&apos;obiettivo rimane lo stesso: promuovere il tennis e i suoi valori!</p>
+	</div><!--*end of main-content -->
+
+	<footer>
+		<div class="container-fluid card" id="footer-panel">
+			<div class="card-header" id="footer-header">CONTATTI
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-12 col-sm-12" id="contatti-mappa">Mappa</div>
+				<div class="col-lg-4 col-md-6 col-sm-12" id="contatti-indirizzo">
+					<span>Come trovarci</span>
+					<p><b>Indirizzo</b><br>
+						Via Chiesa N.3<br>
+						31013 Cimetta di Codognè (TV)<br>
+					</p>
+					<p><b>Orari</b><br>
+						Luned&igrave; - Venerd&igrave;: 09.00-23.00<br>
+						Sabato - Domenica: 09.00 - 19.00<br>
+					</p>
+					<p><b>Telefono</b><br>
+						32909210929
+					</p>
+
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12" id="contatti-social">
+					<a href="#" class="fa fa-facebook"></a>
+					
+				</div>
+
+			</div>	
+		</div>
+	</footer>
 	<script src="js/jquery-3.7.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/script.js"></script>
