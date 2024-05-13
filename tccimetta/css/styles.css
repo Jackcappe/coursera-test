@@ -6,9 +6,10 @@ body{
 }
 a{
 	text-decoration: none;
+	color: #fff;
 }
 #logo-img{
-	box-shadow:  0 0 10px #086735;
+	box-shadow:  0 0 15px #086735;
 
 }
 #header-nav{
@@ -25,7 +26,7 @@ a{
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #222;
 	line-height: .75;
-	padding-top: 10px;
+	padding-top: 0px;
 	padding-left: 0px;
 }
 .navbar-brand a:hover, .navbar-brand a:focus{
@@ -171,18 +172,18 @@ a{
 /**************** X-Small devices only ***********/
 @media (max-width:575px){
 	#logo-img{
-		width: 60px;
-		height: 60px;
+		width: 50px;
+		height: 50px;
 	}
 	.navbar-brand h1{
-		font-size: 1.1em;
+		font-size: 1em;
 	}
 	.nav-link{
 		font-size: 0.95em;
 		padding-top: 20px;
 	}
 	#page-title{
-		font-size: 1.2em;
+		font-size: 1.1em;
 	}
 	#footer-header{
 		font-size: 0.95em;
