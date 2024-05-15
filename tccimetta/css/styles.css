@@ -61,7 +61,7 @@ a{
 
 #page-title{
 	font-family: "Lora", serif;
-	margin-top: 10px;
+	margin: 10px;
 	text-align: center;
 	text-shadow: 1px 1px 1px #222;
 }
@@ -164,6 +164,10 @@ a{
 
 /**************** XX-Large devices only ***********/
 @media(min-width: 1444px){
+	#page-title{
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
 	#header-nav{
 		padding-left:100px;
 		padding-right: 100px;
@@ -172,11 +176,13 @@ a{
 		padding-left: 100px;
 		padding-right: 100px;
 		padding-bottom: 100px;
+		font-size: 130%;
 	}
 	#secondary-content{
 		padding-left: 100px;
 		padding-right: 100px;
 		padding-bottom: 100px;
+		font-size: 130%;
 	}
 	#footer-panel{
 		padding-left: 100px;
@@ -198,11 +204,13 @@ a{
 		padding-left:50px;
 		padding-right: 50px;
 		padding-bottom: 50px;
+		font-size: 130%;
 	}
 	#secondary-content{
 		padding-left: 50px;
 		padding-right: 50px;
 		padding-bottom: 50px;
+		font-size: 130%;
 	}
 	#footer-panel{
 		padding-left:50px;
@@ -235,11 +243,13 @@ a{
 		padding-left: 30px;
 		padding-right: 30px;
 		padding-bottom: 30px;
+		font-size: 120%;
 	}
 	#secondary-content{
 		padding-left: 30px;
 		padding-right: 30px;
 		padding-bottom: 30px;
+		font-size: 120%;
 	}
 	#footer-panel{
 		padding-left: 30px;
@@ -262,6 +272,10 @@ a{
 	}
 	#page-title{
 		font-size: 1.6em;
+		margin:20px;
+	}
+	#main-content{
+		font-size: 110%;
 	}
 
 }
@@ -279,8 +293,12 @@ a{
 		font-size: 1.1em;
 		padding-top: 25px;
 	}
-		#page-title{
+	#page-title{
 		font-size: 1.4em;
+		margin:20px;
+	}
+	#main-content{
+		font-size: 105%;
 	}
 	.table{
 		font-size: 80%;
@@ -291,7 +309,7 @@ a{
 /**************** X-Small devices only ***********/
 @media (max-width:575px){
 	.navbar-brand h1{
-		font-size: 1em;
+		font-size: 1.3em;
 	}
 	.nav-link{
 		font-size: 0.95em;
@@ -310,6 +328,6 @@ a{
 		font-size: 0.80em;
 	}
 	.table{
-		font-size: 70%;
+		font-size: 65%;
 	}
 }
