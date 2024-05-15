@@ -55,7 +55,6 @@ a{
 #page-title{
 	font-family: "Lora", serif;
 	margin-top: 10px;
-	
 	text-align: center;
 	text-shadow: 1px 1px 1px #222;
 }
@@ -67,12 +66,14 @@ a{
 	padding-right: 10px;
 	padding-left: 10px;
 	width:100%;
+	height: 100%;
 }
 
 #main-content-text {	
 	width: 100%;
 	margin-top: 10px;
-	padding: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
 	text-align: justify;
 	text-shadow: 1px 1px 1px #222;
 }
@@ -120,7 +121,24 @@ a{
 	padding-right: 10px;
 }
 
+.table{
+	width: 95%;
+	height: 95%;
+	margin: 10px;
+	box-shadow: 0 0 15px black;
 
+}
+
+
+.table th span{
+	font-size: 10px;
+}
+#table-header-col{
+	text-align: center;
+}
+.table td{
+	text-align: right;
+}
 
 
 /**************** Large devices only ***********/
@@ -145,9 +163,6 @@ a{
 	#page-title{
 		font-size: 1.6em;
 	}
-	#main-content-img{
-			
-	}
 
 }
 
@@ -166,6 +181,9 @@ a{
 	}
 		#page-title{
 		font-size: 1.4em;
+	}
+	.table{
+		font-size: 80%;
 	}
 
 }
@@ -193,6 +211,9 @@ a{
 	}
 	#footer-panel p{
 		font-size: 0.80em;
+	}
+	.table{
+		font-size: 70%;
 	}
 }
 
