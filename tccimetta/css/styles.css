@@ -4,14 +4,16 @@ body{
 	background-color: #086735 ;
 	font-family: "Oxygen", sans-serif;
 }
+
 a{
 	text-decoration: none;
 	color: #fff;
 }
+
 #logo-img{
 	box-shadow:  0 0 15px #086735;
-
 }
+
 #header-nav{
 	background-color: #B25D3A;
 	border-radius: 0;
@@ -21,7 +23,7 @@ a{
 .navbar-brand h1{
 	font-family: "Lora", serif;
 	color: #fff;
-	font-size: 1.75em;
+	font-size: 1.9em;
 	text-transform: uppercase;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #222;
@@ -29,9 +31,11 @@ a{
 	padding-top: 0px;
 	padding-left: 0px;
 }
+
 .navbar-brand a:hover, .navbar-brand a:focus{
 	text-decoration: none;
 }
+
 .nav-link{
 	font-family: "Lora", serif;
 	color: #fff;
@@ -40,14 +44,17 @@ a{
 	margin-top:10px;
 	padding-top: 70px;
 }
+
 .navbar-toggler, .custom-toggler{
 	border: 1px solid #fff;
 	background-color: #086735;
 	margin-right: 10px;
 }
+
 .navbar-toggler:focus{
  	box-shadow: none;
 }
+
 .navbar-toggler:hover{
 		box-shadow:0 0 10px #086735
 }
@@ -58,13 +65,16 @@ a{
 	text-align: center;
 	text-shadow: 1px 1px 1px #222;
 }
+
 #page-title a:hover{
 	color: blue;
 }
+
 #main-image{
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+
 #main-image img{
 	padding-right: 10px;
 	padding-left: 10px;
@@ -73,35 +83,39 @@ a{
 }
 
 #main-content-text {	
-	width: 100%;
-	margin-top: 10px;
+	width: 100%;	
 	padding-left: 10px;
 	padding-right: 10px;
 	text-align: justify;
 	text-shadow: 1px 1px 1px #222;
 }
+
 #secondary-image{
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+
 #secondary-image img{
 	padding-right: 10px;
 	padding-left: 10px;
 	width:100%;
+	height: 100%;
 }
+
 #secondary-content-text{
 	width: 100%;
-	margin-top: 10px;
 	padding: 10px;
 	text-align: justify;
 	text-shadow: 1px 1px 1px #222;
 }
+
 #footer-panel{
 	color: #fff;
 	border-radius: 0;
 	background-color: #2d3e50;
 	padding-bottom:10px;
 }
+
 #footer-header{
 	font-family: "Lora", serif;
 	font-size: 1.1em;
@@ -128,16 +142,16 @@ a{
 	width: 95%;
 	margin: 10px;
 	box-shadow: 0 0 15px black;
-
 }
-
 
 .table th span{
 	font-size: 10px;
 }
+
 #table-header-col{
 	text-align: center;
 }
+
 .table td{
 	text-align: right;
 }
@@ -147,12 +161,92 @@ a{
 	font-size: 80%;
 }
 
-/**************** Large devices only ***********/
-@media (min-width: 992px ){
-	#main-content-img{		
-		
+
+/**************** XX-Large devices only ***********/
+@media(min-width: 1444px){
+	#header-nav{
+		padding-left:100px;
+		padding-right: 100px;
+	}
+	#main-content{
+		padding-left: 100px;
+		padding-right: 100px;
+		padding-bottom: 100px;
+	}
+	#secondary-content{
+		padding-left: 100px;
+		padding-right: 100px;
+		padding-bottom: 100px;
+	}
+	#footer-panel{
+		padding-left: 100px;
+		padding-right: 100px;
 	}
 }
+
+/**************** X-Large devices only ***********/
+@media(min-width: 1200px) and (max-width: 1443px){
+	#page-title{
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	#header-nav{
+		padding-left:50px;
+		padding-right: 50px;
+	}
+	#main-content{
+		padding-left:50px;
+		padding-right: 50px;
+		padding-bottom: 50px;
+	}
+	#secondary-content{
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-bottom: 50px;
+	}
+	#footer-panel{
+		padding-left:50px;
+		padding-right: 50px;
+	}
+}
+
+/**************** Large devices only ***********/
+@media (min-width: 992px ) and (max-width: 1199px){
+	#logo-img{
+		width: 90px;
+		height: 90px;
+	}
+	.navbar-brand h1{
+		font-size: 160%;
+	}
+	.nav-link{
+		font-size: 1.25em;
+	}
+	#page-title{
+		font-size: 1.6em;
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	#header-nav{
+		padding-left:30px;
+		padding-right: 30px;
+	}
+	#main-content{
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-bottom: 30px;
+	}
+	#secondary-content{
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-bottom: 30px;
+	}
+	#footer-panel{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
 /**************** Medium devices only ***********/
 @media (min-width: 768px) and (max-width: 991px){
 	#logo-img{
@@ -193,12 +287,9 @@ a{
 	}
 
 }
+
 /**************** X-Small devices only ***********/
 @media (max-width:575px){
-	#logo-img{
-		width: 50px;
-		height: 50px;
-	}
 	.navbar-brand h1{
 		font-size: 1em;
 	}
@@ -222,4 +313,3 @@ a{
 		font-size: 70%;
 	}
 }
-
