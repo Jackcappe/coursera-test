@@ -58,6 +58,9 @@ a{
 	text-align: center;
 	text-shadow: 1px 1px 1px #222;
 }
+#page-title a:hover{
+	color: blue;
+}
 #main-image{
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -123,7 +126,6 @@ a{
 
 .table{
 	width: 95%;
-	height: 95%;
 	margin: 10px;
 	box-shadow: 0 0 15px black;
 
@@ -140,6 +142,10 @@ a{
 	text-align: right;
 }
 
+#table-prices-specification{
+	margin:10px;
+	font-size: 80%;
+}
 
 /**************** Large devices only ***********/
 @media (min-width: 992px ){
