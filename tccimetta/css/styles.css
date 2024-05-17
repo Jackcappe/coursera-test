@@ -352,4 +352,23 @@ a{
 	.navbar-brand h1{
 		font-size: 20px;
 	}
+	.nav-link{
+		font-size: 0.95em;
+		padding-top: 20px;
+	}
+	#page-title{
+		font-size: 1.1em;
+	}
+	#footer-header{
+		font-size: 0.95em;
+	}
+	#footer-panel span{
+		font-size: 0.90em;
+	}
+	#footer-panel p{
+		font-size: 0.80em;
+	}
+	.table{
+		font-size: 65%;
+	}
 }
