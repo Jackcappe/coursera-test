@@ -323,7 +323,7 @@ a{
 }
 
 /**************** X-Small devices only ***********/
-@media (max-width:575px){
+@media (min-width: 400px) and (max-width:575px){
 	.navbar-brand h1{
 		font-size: 1.3em;
 	}
@@ -345,5 +345,10 @@ a{
 	}
 	.table{
 		font-size: 65%;
+	}
+}
+@media(max-width: 399px){
+	.navbar-brand h1{
+		font-size: 20px;
 	}
 }
