@@ -5,5 +5,5 @@ $(function () {
 		if (screenWidth < 992){
 			$("#navbarSupportedContent").collapse('hide');
 		}
-	})
+	});
 });
